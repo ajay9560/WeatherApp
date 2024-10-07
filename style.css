@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #A1CCA5;
+}
+
+.container-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;
+    background-color: #709775;
+    min-width: 500px;
+    border-radius: 30px;
+    border: 2px solid #8FB996;
+    box-shadow: 5px 5px 5px 2px rgb(65, 93, 67, 0.6)  ;
+}
+.search-box{
+    width: 80%;
+    margin-block: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    font-size: 15px;
+    padding: 19px;
+    background-color: rgb(17, 29, 19, 0.3);
+    opacity: 0.7;
+    box-shadow: 5px 5px 5px 0.5px rgb(65, 93, 67, 0.3);
+   
+}
+.search-box button:hover{
+    background-color: #415D43;
+    cursor: pointer;
+}
+#search-input{
+    border-style: none;
+    border-radius: 8px;
+    padding: 5px;
+    width: 85%;
+    height: 25px;
+    background-color: rgb(17, 29, 19, 0.3);
+    outline: none;
+    box-shadow: 5px 5px 5px 0.5px rgb(65, 93, 67, 0.3);
+    color: #fff;
+}
+#search-input::placeholder{
+    color: #fff;
+    opacity: 0.7;
+}
+
+.card-body{
+    width: 80%;
+    height: 400px;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+
+}
+
+.weather-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+
+}
+.weather-img p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.img-icon{
+    width: 150px;
+    height: 150px;
+    
+    
+}
+.city-detail{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: #fff;
+    
+    
+}
+
+/* .wind-value, .humidity-value{
+    display: none;
+    
+} */
+
+/* .city-detail p{
+    align-items: center;
+    justify-content: center;
+} */
+h2, h4{
+    margin-top: 20px;
+    color: #fff
+}
+.temp{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temp p{
+    text-align: center;
+    justify-content: center;
+}
